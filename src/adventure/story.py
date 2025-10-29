@@ -41,14 +41,8 @@ if __name__ == "__main__":
         )
 
         if choice == "exit":
-            console.print(
-        Panel.fit(
-            f"[bold magenta]You leave the forest safely, adventurer! Goodbye![/bold magenta]",
-            title=" Farewell ",
-            border_style="red",
-        )
-    )
-            break
+             console.print("Goodbye!")  
+             break
 
         result = step(choice, events)
         console.print(Panel(result, border_style="blue"))
