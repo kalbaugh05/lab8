@@ -41,6 +41,7 @@ if __name__ == "__main__":
         )
 
         if choice == "exit":
+            console.print("Goodbye")
             console.print(
                 Panel.fit(
                     f"[bold magenta]You leave the forest safely, adventurer! Goodbye![/bold magenta]",
