@@ -14,7 +14,7 @@ def is_prompt_line(s: str) -> bool:
     Detect the Rich prompt (after ANSI stripped), e.g.:
     'Which direction do you choose? (left/right/exit): '
     """
-    return "Which direction do you choose" in s and "(left/right/exit):" in s
+    return "Which direction do you choose" in s and "left" in s and "right" in s and "exit" in s
 
 def test_exit_message():
     """Ensure the script outputs a goodbye message after user inputs 'exit'."""
