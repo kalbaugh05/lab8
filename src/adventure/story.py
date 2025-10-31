@@ -44,7 +44,7 @@ if __name__ == "__main__":
             console.print("Goodbye")
             console.print(
                 Panel.fit(
-                    f"[bold magenta]You leave the forest safely, adventurer! Goodbye![/bold magenta]",
+                    f"[bold magenta]You leave the forest safely! Goodbye![/bold magenta]",
                     title=" Farewell ",
                     border_style="red",
                 )
